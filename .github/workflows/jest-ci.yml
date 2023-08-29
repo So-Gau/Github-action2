@@ -29,4 +29,4 @@ jobs:
         with:
           push: true
           context: "{{defaultContext}}:client"
-          tags: sogau46/quete1902:latest
+          tags: ${{ secrets.sogau46 }}/quete1902:latest
